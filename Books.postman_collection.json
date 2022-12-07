@@ -422,6 +422,68 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "allAwards",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/awards",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"awards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Award1",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "with keyword Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/awards?titleKeyWord=books",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"awards"
+					],
+					"query": [
+						{
+							"key": "titleKeyWord",
+							"value": "books"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	],
 	"auth": {
@@ -465,4 +527,6 @@
 			"value": "http://localhost:8080"
 		}
 	]
+
 }
+
