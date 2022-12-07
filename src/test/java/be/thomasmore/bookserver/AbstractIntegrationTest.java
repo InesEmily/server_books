@@ -48,12 +48,17 @@ public abstract class AbstractIntegrationTest {
                 .get(url)
                 .contentType(MediaType.APPLICATION_JSON);
     }
-//    protected MockHttpServletRequestBuilder getMockRequestAuthors(AuthorDetailedDTO NEW_AUTHOR_DTO) throws JsonProcessingException {
-//        return MockMvcRequestBuilders.post("/api/authors/")
-//                .with(csrf())
-//                .contentType(MediaType.APPLICATION_JSON)
-//                .accept(MediaType.APPLICATION_JSON)
-//                .content(this.mapper.writeValueAsString(NEW_AUTHOR_DTO));
+//    protected MockHttpServletRequestBuilder getMockRequestGetAwards(String url) {
+//        return MockMvcRequestBuilders
+//                .get(url)
+//                .contentType(MediaType.APPLICATION_JSON);
 //    }
+    protected MockHttpServletRequestBuilder getMockRequestGetAwards(String url) {
+        return MockMvcRequestBuilders
+                .get(url)
+                .contentType(MediaType.APPLICATION_JSON);
+    }
+
+
 }
 
