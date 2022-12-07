@@ -48,11 +48,6 @@ public abstract class AbstractIntegrationTest {
                 .get(url)
                 .contentType(MediaType.APPLICATION_JSON);
     }
-//    protected MockHttpServletRequestBuilder getMockRequestGetAwards(String url) {
-//        return MockMvcRequestBuilders
-//                .get(url)
-//                .contentType(MediaType.APPLICATION_JSON);
-//    }
     protected MockHttpServletRequestBuilder getMockRequestGetAwards(String url) {
         return MockMvcRequestBuilders
                 .get(url)
