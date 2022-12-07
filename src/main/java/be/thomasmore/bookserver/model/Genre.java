@@ -1,6 +1,5 @@
 package be.thomasmore.bookserver.model;
 
-
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

@@ -34,5 +34,7 @@ public class Book {
 
     @ManyToMany(fetch = FetchType.LAZY)
     private List<Author> authors;
+    @ManyToMany
+    private List<Awards> awards;
 }
 

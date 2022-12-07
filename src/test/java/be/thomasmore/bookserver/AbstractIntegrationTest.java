@@ -1,6 +1,7 @@
 package be.thomasmore.bookserver;
 
 
+import be.thomasmore.bookserver.model.dto.AuthorDetailedDTO;
 import be.thomasmore.bookserver.model.dto.BookDetailedDTO;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -42,5 +43,17 @@ public abstract class AbstractIntegrationTest {
                 .accept(MediaType.APPLICATION_JSON)
                 .content(this.mapper.writeValueAsString(NEW_BOOK_DTO));
     }
+    protected MockHttpServletRequestBuilder getMockRequestGetAuthors(String url) {
+        return MockMvcRequestBuilders
+                .get(url)
+                .contentType(MediaType.APPLICATION_JSON);
+    }
+//    protected MockHttpServletRequestBuilder getMockRequestAuthors(AuthorDetailedDTO NEW_AUTHOR_DTO) throws JsonProcessingException {
+//        return MockMvcRequestBuilders.post("/api/authors/")
+//                .with(csrf())
+//                .contentType(MediaType.APPLICATION_JSON)
+//                .accept(MediaType.APPLICATION_JSON)
+//                .content(this.mapper.writeValueAsString(NEW_AUTHOR_DTO));
+//    }
 }
 
