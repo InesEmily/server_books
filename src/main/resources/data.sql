@@ -58,3 +58,5 @@ VALUES (6, 'Confituur Bookstores Prize', 'The Confituur Bookstores Prize is an a
 
 INSERT INTO Awards (id, title, info, country)
 VALUES (7, 'Gouden Uil', 'The   Gouden Uil is an award for achievements in .', 'Belgium');
+
+Alter table book add column awards_id int;
