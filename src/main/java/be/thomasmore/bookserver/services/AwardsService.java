@@ -26,8 +26,10 @@ public class AwardsService {
     @Autowired
     private AwardsDetailedDTOConverter awardsDetailedDTOConverter;
 
-    public List<AwardsDTO> findAll() {
-        final List<Awards> awards = awardsRepository.findAll();
+    public List<AwardsDTO> findAll(String titleKeyWord) {
+        final List<Awards> awards = titleKeyWord == null ?
+                awardsRepository.findAll() :
+                awardsRepository.findByTitleContainingIgnoreCase(titleKeyWord);
 
         return awards.stream()
                 .map(a -> awardsDTOConverter.convertToDto(a))
