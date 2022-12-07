@@ -6,6 +6,14 @@ create table book
     title        varchar(255) not null,
     primary key (id)
 );
+create table awards
+(
+    id      int,
+    title   varchar(255),
+    info    varchar(400),
+    country varchar(255),
+
+);
 create table booksuser
 (
     id       integer not null AUTO_INCREMENT,
@@ -20,3 +28,5 @@ create table genre
     name varchar(255) not null,
     primary key (id)
 );
+
+create table

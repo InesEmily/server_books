@@ -11,6 +11,6 @@ import lombok.NoArgsConstructor;
 @Data
 public class AwardsDTO {
     private int id;
-    private String name;
+    private String title;
 }
 

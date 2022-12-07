@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class AwardsDetailedDTO {
     private int id;
-    private String name;
+    private String title;
     private String info;
     private String country;
 }

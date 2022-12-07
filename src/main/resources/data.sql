@@ -36,3 +36,25 @@ INSERT INTO BOOKSUSER (USERNAME, PASSWORD, ROLE)
 VALUES ('vera', '$2y$12$KF3spKP4kgf59.6zYkmjyeYaW2.4ZxV16Grpw1FPsFnzYq68kswJ6', 'USER'); -- vera
 
 
+INSERT INTO Awards (id, title, info, country)
+VALUES (1, 'Pullitzer Prize', 'The Pullitzer Prize is an award fornalism', 'United States');
+
+INSERT INTO Awards (id, title, info, country)
+VALUES (2, 'Booker Prize', 'The Booker Prize  literature, and aeph. Prizes are awarded annually in twenty-one categories.', 'England');
+
+INSERT INTO Awards (id, title, info, country)
+VALUES (3, 'Nobel Prize', 'The Nobel Prize is an It was established in 19gories.', 'France');
+
+
+
+INSERT INTO Awards (id, title, info, country)
+VALUES (4, 'Hugo Award', 'The Hugo Award is an ly in twenty-one categories.', 'England');
+
+INSERT INTO Awards (id, title, info, country)
+VALUES (5, 'Nebula Award', 'The Nebula Award is an award f It was established ne categories.', 'England');
+
+INSERT INTO Awards (id, title, info, country)
+VALUES (6, 'Confituur Bookstores Prize', 'The Confituur Bookstores Prize is an award  are awarded annually in twenty-one categories.', 'Spain');
+
+INSERT INTO Awards (id, title, info, country)
+VALUES (7, 'Gouden Uil', 'The   Gouden Uil is an award for achievements in .', 'Belgium');
