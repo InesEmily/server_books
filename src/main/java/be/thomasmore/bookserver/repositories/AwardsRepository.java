@@ -1,6 +1,5 @@
 package be.thomasmore.bookserver.repositories;
 import be.thomasmore.bookserver.model.Awards;
-import be.thomasmore.bookserver.model.Book;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.lang.NonNull;
 

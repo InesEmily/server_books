@@ -18,6 +18,8 @@ insert into book (title, author) values ('Extreme Programming Explained', ''); /
 insert into book (title, author) values ('Implementation patterns', ''); /*18*/
 insert into book (title, author) values ('Clean code', ''); /*19*/
 
+
+
 insert into author (name) values ('Margaret Atwood'); /*1*/
 insert into author (name) values ('Haruki Murakami'); /*2*/
 insert into author (name) values ('Erich Gamma'); /*3*/
@@ -55,4 +57,13 @@ insert into book_authors (books_id, authors_id) values (16, 11);
 insert into book_authors (books_id, authors_id) values (17, 12);
 insert into book_authors (books_id, authors_id) values (18, 12);
 insert into book_authors (books_id, authors_id) values (19, 13);
+
+insert into BOOK_AWARDS (books_id, awards_id) values (1, 1);
+insert into BOOK_AWARDS  (books_id, awards_id) values (2, 2);
+insert into BOOK_AWARDS  (books_id, awards_id) values (3, 3);
+insert into BOOK_AWARDS  (books_id, awards_id) values (4, 4);
+insert into BOOK_AWARDS  (books_id, awards_id) values (5, 5);
+insert into book_awards (books_id, awards_id) values (6, 6);
+
+
 

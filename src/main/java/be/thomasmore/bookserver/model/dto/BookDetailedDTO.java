@@ -18,5 +18,6 @@ public class BookDetailedDTO {
     //more data will be inserted here later...
 
     private Collection<AuthorDTO> authors;
+    private Collection<AwardsDTO> awards;
 }
 

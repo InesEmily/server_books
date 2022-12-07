@@ -22,6 +22,13 @@ insert into BOOK_AUTHORS (BOOKS_ID, AUTHORS_ID) values (6, 4);
 insert into BOOK_AUTHORS (BOOKS_ID, AUTHORS_ID) values (6, 5);
 insert into BOOK_AUTHORS (BOOKS_ID, AUTHORS_ID) values (6, 6);
 
+-- insert into BOOK_AWARDS (books_id, awards_id) values (1, 1);
+-- insert into BOOK_AWARDS  (books_id, awards_id) values (2, 2);
+-- insert into BOOK_AWARDS  (books_id, awards_id) values (3, 3);
+-- insert into BOOK_AWARDS  (books_id, awards_id) values (4, 4);
+-- insert into BOOK_AWARDS  (books_id, awards_id) values (5, 5);
+-- insert into book_awards (books_id, awards_id) values (6, 6);
+
 insert into GENRE(NAME)values ('fantasy');
 insert into GENRE(NAME)values ('non-fiction');
 insert into GENRE(NAME)values ('programming');
@@ -59,4 +66,3 @@ VALUES (6, 'Confituur Bookstores Prize', 'The Confituur Bookstores Prize is an a
 INSERT INTO Awards (id, title, info, country)
 VALUES (7, 'Gouden Uil', 'The   Gouden Uil is an award for achievements in .', 'Belgium');
 
-Alter table book add column awards_id int;
