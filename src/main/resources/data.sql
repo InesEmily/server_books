@@ -48,11 +48,8 @@ VALUES (1, 'Pullitzer Prize', 'The Pullitzer Prize is an award fornalism', 'Unit
 
 INSERT INTO Awards (id, title, info, country)
 VALUES (2, 'Booker Prize', 'The Booker Prize  literature, and aeph. Prizes are awarded annually in twenty-one categories.', 'England');
-
 INSERT INTO Awards (id, title, info, country)
 VALUES (3, 'Nobel Prize', 'The Nobel Prize is an It was established in 19gories.', 'France');
-
-
 
 INSERT INTO Awards (id, title, info, country)
 VALUES (4, 'Hugo Award', 'The Hugo Award is an ly in twenty-one categories.', 'England');
@@ -65,4 +62,7 @@ VALUES (6, 'Confituur Bookstores Prize', 'The Confituur Bookstores Prize is an a
 
 INSERT INTO Awards (id, title, info, country)
 VALUES (7, 'Gouden Uil', 'The   Gouden Uil is an award for achievements in .', 'Belgium');
+insert into serie (id,name) values (1,'Anderland');
+insert into serie (id,name) values (2,'Oryx and Crake');
+insert into serie (id,name) values (3,'1Q84');
 
